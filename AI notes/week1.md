@@ -1,5 +1,3 @@
-I understand you'd like detailed notes covering the lecture content from both the spoken material and the PDF slides. I'll provide a comprehensive summary of the key points, concepts, and topics discussed, combining information from all the sources provided. Here's a detailed overview:
-
 ## Introduction to Software Engineering (CS 487)
 
 ### Course Overview
@@ -64,9 +62,3 @@ I understand you'd like detailed notes covering the lecture content from both th
 - Combination of theoretical concepts and practical applications
 - Team projects to simulate real-world software development scenarios
 - Focus on both technical skills and soft skills necessary for software engineers
-
-This summary covers the main points from the lecture and slides, providing a comprehensive overview of the introduction to software engineering course. It includes key concepts, historical context, current challenges, and the overall approach to software development taught in the course.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/26733416/31d334fd-b11e-4d03-a37b-56ad226403da/paste.txt
-[2] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/26733416/1a07a76f-d42f-44e4-8454-6242d32bea12/paste-2.txt
