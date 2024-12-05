@@ -74,35 +74,64 @@
 2. Preparing for potential issues at runtime
 3. Implementing appropriate responses to maintain system stability
 
-Possible Questions and Answers
-Q1: What is situational awareness in the context of software engineering?
-A1: Situational awareness in software engineering refers to a system's ability to perceive and understand its environment, including relevant events, conditions, and potential risks. It involves gathering, processing, and acting upon information to make informed decisions and maintain safe and effective operation.
-Q2: How does service-oriented architecture differ from traditional hardcoded systems?
-A2: Service-oriented architecture (SOA) involves dynamic connections between requesters and providers at runtime, whereas traditional hardcoded systems have predetermined connections. SOA offers more flexibility but introduces new risks, such as the possibility of a provider not being available when needed.
-Q3: What role does risk assessment play in designing software systems?
-A3: Risk assessment helps engineers identify potential issues, quantify their likelihood and impact, and make informed decisions about system design and implementation. It involves comparing different approaches, weighing the costs and benefits, and determining the most effective way to minimize exposure to risks while meeting system requirements.
-Q4: How does the concept of a registry function in service-oriented architecture?
-A4: In service-oriented architecture, a registry acts as a mediator between requesters and providers. It maintains a list of available services and their characteristics. Requesters query the registry to find suitable providers, and providers publish their services to the registry to make them discoverable.
-Q5: How can automated systems, like self-driving cars, be engineered for situational awareness?
-A5: Automated systems can be engineered for situational awareness by:
-Implementing sensors to gather environmental data
-Developing algorithms to process and interpret sensor data
-Creating knowledge bases for decision-making
-Designing exception detection and handling mechanisms
-Limiting distractions and focusing on relevant information
-Continuously updating and refining the system's understanding of its environment
-Q6: How does memory management in automated systems compare to human memory?
-A6: Memory management in automated systems can be designed to mimic some aspects of human memory:
-Prioritizing recent and significant information
-Removing or archiving old, less frequently used data
-Managing limited capacity by making room for new, important information
-Maintaining quick access to frequently used data
+# Possible Questions and Answers
+
+## Q1: What is situational awareness in the context of software engineering?
+
+**A1:** Situational awareness in software engineering refers to a system's ability to perceive and understand its environment, including relevant events, conditions, and potential risks. It involves gathering, processing, and acting upon information to make informed decisions and maintain safe and effective operation.
+
+---
+
+## Q2: How does service-oriented architecture differ from traditional hardcoded systems?
+
+**A2:** Service-oriented architecture (SOA) involves dynamic connections between requesters and providers at runtime, whereas traditional hardcoded systems have predetermined connections. SOA offers more flexibility but introduces new risks, such as the possibility of a provider not being available when needed.
+
+---
+
+## Q3: What role does risk assessment play in designing software systems?
+
+**A3:** Risk assessment helps engineers identify potential issues, quantify their likelihood and impact, and make informed decisions about system design and implementation. It involves comparing different approaches, weighing the costs and benefits, and determining the most effective way to minimize exposure to risks while meeting system requirements.
+
+---
+
+## Q4: How does the concept of a registry function in service-oriented architecture?
+
+**A4:** In service-oriented architecture, a registry acts as a mediator between requesters and providers. It maintains a list of available services and their characteristics. Requesters query the registry to find suitable providers, and providers publish their services to the registry to make them discoverable.
+
+---
+
+## Q5: How can automated systems, like self-driving cars, be engineered for situational awareness?
+
+**A5:** Automated systems can be engineered for situational awareness by:
+- Implementing sensors to gather environmental data
+- Developing algorithms to process and interpret sensor data
+- Creating knowledge bases for decision-making
+- Designing exception detection and handling mechanisms
+- Limiting distractions and focusing on relevant information
+- Continuously updating and refining the system's understanding of its environment
+
+---
+
+## Q6: How does memory management in automated systems compare to human memory?
+
+**A6:** Memory management in automated systems can be designed to mimic some aspects of human memory:
+- Prioritizing recent and significant information
+- Removing or archiving old, less frequently used data
+- Managing limited capacity by making room for new, important information
+- Maintaining quick access to frequently used data
+
 However, automated systems can potentially offer more reliable and consistent storage and retrieval of information compared to human memory.
-Q7: What is the importance of exception detection and handling in software systems?
-A7: Exception detection and handling are crucial for managing risks and maintaining system stability. They allow systems to:
-Identify when something unexpected or problematic occurs
-Respond appropriately to mitigate potential issues
-Maintain operation or gracefully degrade functionality when faced with errors
-Provide feedback or alerts about system status
-Log information for later analysis and system improvement
+
+---
+
+## Q7: What is the importance of exception detection and handling in software systems?
+
+**A7:** Exception detection and handling are crucial for managing risks and maintaining system stability. They allow systems to:
+- Identify when something unexpected or problematic occurs
+- Respond appropriately to mitigate potential issues
+- Maintain operation or gracefully degrade functionality when faced with errors
+- Provide feedback or alerts about system status
+- Log information for later analysis and system improvement
+
 These mechanisms help create more robust and reliable software systems, especially in dynamic environments like those found in service-oriented architectures.
+
